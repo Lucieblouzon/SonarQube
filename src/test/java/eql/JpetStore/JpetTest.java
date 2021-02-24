@@ -30,7 +30,7 @@ public class JpetTest {
 	@Test
 	public void TestJPetStore() throws Exception {
 
-		driver.get("http://localhost:8090/jpetstore/");
+		driver.get("http://localhost:8080/jpetstore/");
 		
 		driver.findElement(By.xpath("//*[@id=\"Content\"]/p[1]/a")).click();
 		
